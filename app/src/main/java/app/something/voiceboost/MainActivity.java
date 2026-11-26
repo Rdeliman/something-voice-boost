@@ -45,8 +45,9 @@ public class MainActivity extends Activity {
 
 
         TextView about = new TextView(this);
-        about.setText("Because the Nothing speaker sounded like nothing. Makes voice chats and internet calls louder"
-                + " on the speaker.\n\nRegular phone calls get louder only on Google Fi while you are on Wi-Fi."
+        about.setText("Because the Nothing speaker sounded like nothing.\n\nMakes apps louder when they talk through"
+                + " the phone's call speaker mode, the quiet one: voice assistants like ChatGPT Advanced Voice, and"
+                + " internet calls.\n\nRegular phone calls get louder only on Google Fi while you are on Wi-Fi."
                 + " Calls on the cell network cannot be boosted by any app.");
         about.setPadding(0, pad / 2, 0, pad);
         root.addView(about);

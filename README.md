@@ -2,8 +2,10 @@
 
 Because the Nothing speaker sounded like nothing.
 
-Something is a small Android app that makes **voice-mode audio louder on the speaker**: voice chats with AI apps,
-internet calls, and regular phone calls on Google Fi while you are on Wi-Fi. Regular calls on the cell network cannot be boosted. No root, no bootloader unlock, no wipe.
+Some apps talk through the phone's **call speaker mode**, the same one a phone call uses, and on this phone that
+mode is the quiet one. Something is a small Android app that makes those apps louder: voice assistants such as
+ChatGPT Advanced Voice, internet calls, and regular phone calls on Google Fi while you are on Wi-Fi. Regular calls
+on the cell network cannot be boosted. No root, no bootloader unlock, no wipe.
 
 It was written for the Nothing Phone (3), where speakerphone voice audio is very quiet even at full volume
 ([thread 1](https://nothing.community/d/38006-nothing-phone-3-in-call-speaker-volume-too-low),
@@ -16,8 +18,8 @@ It is not made by, or affiliated with, Nothing.
 
 | What you are doing | Louder? |
 | --- | --- |
-| Talking out loud with an AI app (ChatGPT voice and similar) | **Yes** |
-| Calls made inside an app over the internet | **Yes**, for apps that use the phone's call-style audio |
+| Talking out loud with a voice assistant that uses the call speaker mode, such as **ChatGPT Advanced Voice** | **Yes** |
+| Calls made inside an app over the internet | **Yes**, for apps that use the call speaker mode |
 | Regular phone calls on **Google Fi while connected to Wi-Fi** | **Yes** |
 | Regular phone calls on the **cell network** (no Wi-Fi) | **No** |
 | Wi-Fi calling on **other carriers** | **Probably not.** Untested, but most carriers handle it like a cell call. |
@@ -27,8 +29,12 @@ It is not made by, or affiliated with, Nothing.
 to the speaker. It never passes through the part of Android that apps can touch, so no app can make it louder.
 Google Fi on Wi-Fi is the exception, because the Fi app itself carries the call.
 
-**Not sure about your calls? Test it in ten seconds:** make a call on speaker and open Something during it. If it
-says **Boosting**, that kind of call gets louder. If it still says **Waiting for a voice chat**, it can't be boosted.
+**How to tell if an app uses the call speaker mode:** it sounds quiet on speaker while music on the same phone is
+loud, and the volume buttons show a call volume slider while it talks.
+
+**Not sure about an app or your calls? Test it in ten seconds:** start the voice chat or call on speaker and open
+Something during it. If it says **Boosting**, it gets louder. If it still says **Waiting for a voice chat**, it
+can't be boosted.
 
 Tested on one Nothing Phone (3), Nothing OS 5.0 (Android 17). It needs Android 12 or newer. It uses standard
 Android APIs, so it may work on other phones, but that is untested.
