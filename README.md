@@ -138,6 +138,10 @@ Remove it like any app: **Settings > Apps > Something > Uninstall**. Nothing els
 
 ## Is this safe?
 
+**Malware scan of the 1.2 APK:** [VirusTotal: 0 of 65 scanners flagged it](https://www.virustotal.com/gui/file/a0de181f55322ba5297cc3182563e1bae40cb9b4ce320384eeb3080ddb0bcc32).
+You can check that your download is the same file: its SHA-256 is
+`a0de181f55322ba5297cc3182563e1bae40cb9b4ce320384eeb3080ddb0bcc32`.
+
 - The app has **no internet permission**. It cannot send anything anywhere.
 - The `DUMP` permission lets it read the phone's audio status report, which is the only way a normal app can learn
   which audio streams are playing. It reads only that report and uses only the stream ids in it.
