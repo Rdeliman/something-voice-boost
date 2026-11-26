@@ -159,7 +159,7 @@ What that means here:
 | --- | --- |
 | Apps must be open source, on a platform such as GitHub | All source is in this repository under the MIT license. The APK in Releases is built from it. |
 | A download link needs a VirusTotal scan | [VirusTotal scan of the 1.2 APK](https://www.virustotal.com/gui/file/a0de181f55322ba5297cc3182563e1bae40cb9b4ce320384eeb3080ddb0bcc32): 0 of 65 scanners flagged it. |
-| An APK also needs a Koodous scan | Pending. The link will be added here once the upload to Koodous is complete. |
+| An APK also needs a Koodous scan | [Koodous scan of the 1.2 APK](https://koodous.com/apks/a0de181f55322ba5297cc3182563e1bae40cb9b4ce320384eeb3080ddb0bcc32): undetected by all three of its scanners (ClamAV, Ikarus, KoodousAI). |
 | No promotional or referral links, no selling, no asking for donations | The app is free. There are no ads, no referral links, no purchases and no donation links, here or in the app. |
 | No impersonation | This is an independent project. It is not made by, endorsed by, or affiliated with Nothing. |
 | Give a disclaimer for AI-generated content | See below. |
