@@ -45,6 +45,8 @@ button on the phone for it.
    not from the Play Store.
 4. Open **Something** once. It will say **Setup needed**. That is expected until Part 3 is done.
 
+   <img src="docs/screen-setup.png" alt="Something showing Setup needed before the permission is granted" width="320">
+
 ### Part 2: Get the phone and computer talking
 
 1. **Turn on Developer options.** On the phone open **Settings > About phone**, find **Build number** (on Nothing OS
@@ -80,6 +82,9 @@ No message means it worked. You can unplug the phone now.
 ### Part 4: Turn it on and keep it on
 
 1. Open **Something**. The **Setup needed** message should be gone, and it should say **Waiting for a voice chat**.
+
+   <img src="docs/screen-waiting.png" alt="Something ready and waiting for a voice chat" width="320">
+
 2. Leave **Boost voice chats** switched on.
 3. Open **Settings > Apps > Something > App battery usage** (or **Battery**), allow background usage, and choose
    **Unrestricted**. This stops the system from shutting the booster down.

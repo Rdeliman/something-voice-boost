@@ -4,10 +4,12 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Insets;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.ViewGroup;
+import android.view.WindowInsets;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Switch;
@@ -33,16 +35,17 @@ public class MainActivity extends Activity {
         int pad = (int) (24 * getResources().getDisplayMetrics().density);
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
-        root.setPadding(pad, pad * 3, pad, pad);
-        root.setFitsSystemWindows(true);
+        root.setPadding(pad, pad, pad, pad);
+        // Keep the content clear of the status and navigation bars, and off the screen edges.
+        root.setOnApplyWindowInsetsListener((v, insets) -> {
+            Insets bars = insets.getInsets(WindowInsets.Type.systemBars());
+            v.setPadding(pad + bars.left, pad + bars.top, pad + bars.right, pad + bars.bottom);
+            return insets;
+        });
 
-        TextView title = new TextView(this);
-        title.setText("Something");
-        title.setTextSize(28);
-        root.addView(title);
 
         TextView about = new TextView(this);
-        about.setText("Because the Nothing speaker sounded like nothing. Makes voice chats and internet calls louder on the speaker. Normal phone calls are not affected.");
+        about.setText("Because the Nothing speaker sounded like nothing. Makes voice chats, internet calls and Wi-Fi calls louder on the speaker. Ordinary cellular calls cannot be boosted.");
         about.setPadding(0, pad / 2, 0, pad);
         root.addView(about);
 
