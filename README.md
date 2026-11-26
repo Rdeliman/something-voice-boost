@@ -93,7 +93,11 @@ No message means it worked. You can unplug the phone now.
 ## Using it
 
 - Start a voice chat or a call on the speaker. Within a second or two it gets louder. The app's screen shows
-  **Boosting 1 voice stream by +9 dB** while it works.
+  **Boosting 1 voice stream** and the amount while it works.
+
+  <img src="docs/screen-boosting.png" alt="Something boosting a live voice chat, slider at the maximum" width="320">
+
+  (This picture shows the slider at its maximum, +24 dB. It starts at +9.)
 - **Extra loudness** sets how much. It starts at +9 dB and goes to +24 dB. Above +15 dB the sound may distort.
   You can move it during a call and hear the change right away.
 - The **Something is on** notification means the booster is running. If it is ever missing, open the app once.
