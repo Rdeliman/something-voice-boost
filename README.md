@@ -149,6 +149,27 @@ You can check that your download is the same file: its SHA-256 is
 - Extra gain can distort, and very loud playback for long periods is hard on a small speaker. Start low. Use at
   your own risk.
 
+## Nothing Community guidelines
+
+This project is shared on the Nothing Community forum and follows its
+[Community Guidelines & Code of Conduct](https://nothing.community/d/20-nothing-community-guidelines-code-of-conduct).
+What that means here:
+
+| Guideline | How this project meets it |
+| --- | --- |
+| Apps must be open source, on a platform such as GitHub | All source is in this repository under the MIT license. The APK in Releases is built from it. |
+| A download link needs a VirusTotal scan | [VirusTotal scan of the 1.2 APK](https://www.virustotal.com/gui/file/a0de181f55322ba5297cc3182563e1bae40cb9b4ce320384eeb3080ddb0bcc32): 0 of 65 scanners flagged it. |
+| An APK also needs a Koodous scan | Pending. The link will be added here once the upload to Koodous is complete. |
+| No promotional or referral links, no selling, no asking for donations | The app is free. There are no ads, no referral links, no purchases and no donation links, here or in the app. |
+| No impersonation | This is an independent project. It is not made by, endorsed by, or affiliated with Nothing. |
+| Give a disclaimer for AI-generated content | See below. |
+
+**AI disclosure:** the app's code and this guide were written with an AI assistant (Claude, by Anthropic), directed
+by the project's author. The author tested the app on their own Nothing Phone (3); the results and screenshots in
+this guide come from that phone.
+
+The scan links apply to one exact file. Each new release gets its own scans, and this section is updated with them.
+
 ## How it works
 
 Android lets an app attach an audio effect to another app's audio session if it knows the session id. Something
