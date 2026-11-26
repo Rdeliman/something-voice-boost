@@ -4,7 +4,7 @@ Because the Nothing speaker sounded like nothing.
 
 Some apps talk through the phone's **call speaker mode**, the same one a phone call uses, and on this phone that
 mode is the quiet one. Something is a small Android app that makes those apps louder: voice assistants such as
-ChatGPT Advanced Voice, internet calls, and regular phone calls on Google Fi while you are on Wi-Fi. Regular calls
+ChatGPT Advanced Voice and Dots, internet calls, and regular phone calls on Google Fi while you are on Wi-Fi. Regular calls
 on the cell network cannot be boosted. No root, no bootloader unlock, no wipe.
 
 It was written for the Nothing Phone (3), where speakerphone voice audio is very quiet even at full volume
@@ -18,7 +18,7 @@ It is not made by, or affiliated with, Nothing.
 
 | What you are doing | Louder? |
 | --- | --- |
-| Talking out loud with a voice assistant that uses the call speaker mode, such as **ChatGPT Advanced Voice** | **Yes** |
+| Talking out loud with a voice assistant that uses the call speaker mode, such as **ChatGPT Advanced Voice** or **Dots** | **Yes** |
 | Calls made inside an app over the internet | **Yes**, for apps that use the call speaker mode |
 | Regular phone calls on **Google Fi while connected to Wi-Fi** | **Yes** |
 | Regular phone calls on the **cell network** (no Wi-Fi) | **No** |
